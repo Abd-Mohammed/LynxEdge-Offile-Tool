@@ -1,0 +1,2620 @@
+{
+    "id": "1815181194",
+    "configuration": {
+        "type": "VRP",
+        "timeZoneId": "Jordan Standard Time",
+        "solverConfiguration": {
+            "enablePartitioning": true,
+            "termination": {
+                "secondsSpentLimit": 900
+            },
+            "constructionHeuristic": {
+                "type": "FIRST_FIT_DECREASING"
+            },
+            "distanceMatrix": {
+                "type": "FILE",
+                "path": "App_Data/dubai_distance_matrix.csv"
+            }
+        }
+    },
+    "vehicles": [
+        {
+            "name": "12 Seater-0",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 12,
+            "volumeCapacity": 12,
+            "fuelCost": 1.0
+        },
+        {
+            "name": "12 Seater-1",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 12,
+            "volumeCapacity": 12,
+            "fuelCost": 1.0
+        },
+        {
+            "name": "12 Seater-2",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 12,
+            "volumeCapacity": 12,
+            "fuelCost": 1.0
+        },
+        {
+            "name": "12 Seater-3",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 12,
+            "volumeCapacity": 12,
+            "fuelCost": 1.0
+        },
+        {
+            "name": "12 Seater-4",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 12,
+            "volumeCapacity": 12,
+            "fuelCost": 1.0
+        },
+        {
+            "name": "12 Seater-5",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 12,
+            "volumeCapacity": 12,
+            "fuelCost": 1.0
+        },
+        {
+            "name": "12 Seater-6",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 12,
+            "volumeCapacity": 12,
+            "fuelCost": 1.0
+        },
+        {
+            "name": "12 Seater-7",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 12,
+            "volumeCapacity": 12,
+            "fuelCost": 1.0
+        },
+        {
+            "name": "12 Seater-8",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 12,
+            "volumeCapacity": 12,
+            "fuelCost": 1.0
+        },
+        {
+            "name": "12 Seater-9",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 12,
+            "volumeCapacity": 12,
+            "fuelCost": 1.0
+        },
+        {
+            "name": "30 Seater-0",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-1",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-2",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-3",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-4",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-5",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-6",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-7",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-8",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-9",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-10",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-11",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-12",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-13",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-14",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-15",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-16",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-17",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-18",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-19",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-20",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-21",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-22",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-23",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-24",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-25",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-26",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-27",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-28",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-29",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-30",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-31",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-32",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-33",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-34",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-35",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-36",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-37",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-38",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-39",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-40",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-41",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-42",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-43",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-44",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-45",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-46",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-47",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-48",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-49",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-50",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-51",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-52",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-53",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-54",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-55",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-56",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-57",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-58",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-59",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-60",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-61",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-62",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-63",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-64",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-65",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-66",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-67",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-68",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-69",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-70",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-71",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-72",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-73",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-74",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-75",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-76",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-77",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-78",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-79",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-80",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-81",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-82",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-83",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-84",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-85",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-86",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-87",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-88",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        },
+        {
+            "name": "30 Seater-89",
+            "startDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T00:00:00Z"
+            },
+            "endDepot": {
+                "location": {
+                    "address": "AL QUOZ  CAMP",
+                    "lat": 25.133202126043326,
+                    "lng": 55.254699280403784
+                },
+                "time": "2024-02-19T23:59:59Z"
+            },
+            "weightCapacity": 30,
+            "volumeCapacity": 30,
+            "fuelCost": 30.0
+        }
+    ],
+    "passengers": [
+        {
+            "demand": 52,
+            "trackingNo": "1567446744",
+            "pickupLocation": {
+                "address": "AL QUOZ  CAMP",
+                "lat": 25.133202126043326,
+                "lng": 55.254699280403784
+            },
+            "dropOffLocation": {
+                "address": "AG car taxi service",
+                "lat": 25.120489061901523,
+                "lng": 55.2191334134638
+            },
+            "pickupDuration": 10,
+            "deliveryDuration": 10,
+            "weightDemand": 1,
+            "volumeDemand": 1,
+            "pickupReadyTime": null,
+            "pickupDueTime": null,
+            "dropOffReadyTime": "2024-02-19T05:10:00Z",
+            "dropOffDueTime": "2024-02-19T05:40:00Z"
+        },
+        {
+            "demand": 25,
+            "trackingNo": "522228164",
+            "pickupLocation": {
+                "address": "AG car taxi service",
+                "lat": 25.120489061901523,
+                "lng": 55.2191334134638
+            },
+            "dropOffLocation": {
+                "address": "AL QUOZ  CAMP",
+                "lat": 25.133202126043326,
+                "lng": 55.254699280403784
+            },
+            "pickupDuration": 10,
+            "deliveryDuration": 10,
+            "weightDemand": 1,
+            "volumeDemand": 1,
+            "pickupReadyTime": "2024-02-19T06:20:00Z",
+            "pickupDueTime": "2024-02-19T06:50:00Z",
+            "dropOffReadyTime": null,
+            "dropOffDueTime": null
+        },
+        {
+            "demand": 52,
+            "trackingNo": "2023352624",
+            "pickupLocation": {
+                "address": "AL QUOZ  CAMP",
+                "lat": 25.133202126043326,
+                "lng": 55.254699280403784
+            },
+            "dropOffLocation": {
+                "address": "DUBAI HILLS MALL-1",
+                "lat": 25.10173828905264,
+                "lng": 55.239924612059895
+            },
+            "pickupDuration": 10,
+            "deliveryDuration": 10,
+            "weightDemand": 1,
+            "volumeDemand": 1,
+            "pickupReadyTime": null,
+            "pickupDueTime": null,
+            "dropOffReadyTime": "2024-02-19T07:10:00Z",
+            "dropOffDueTime": "2024-02-19T07:40:00Z"
+        },
+        {
+            "demand": 1,
+            "trackingNo": "473341075",
+            "pickupLocation": {
+                "address": "AL QUOZ  CAMP",
+                "lat": 25.133202126043326,
+                "lng": 55.254699280403784
+            },
+            "dropOffLocation": {
+                "address": "DUBAI HILLS NURSERY",
+                "lat": 25.122987169154307,
+                "lng": 55.260860640896155
+            },
+            "pickupDuration": 10,
+            "deliveryDuration": 10,
+            "weightDemand": 1,
+            "volumeDemand": 1,
+            "pickupReadyTime": null,
+            "pickupDueTime": null,
+            "dropOffReadyTime": "2024-02-19T07:20:00Z",
+            "dropOffDueTime": "2024-02-19T07:50:00Z"
+        },
+        {
+            "demand": 34,
+            "trackingNo": "1464014147",
+            "pickupLocation": {
+                "address": "DUBAI HILLS MALL-1",
+                "lat": 25.10173828905264,
+                "lng": 55.239924612059895
+            },
+            "dropOffLocation": {
+                "address": "AL QUOZ  CAMP",
+                "lat": 25.133202126043326,
+                "lng": 55.254699280403784
+            },
+            "pickupDuration": 10,
+            "deliveryDuration": 10,
+            "weightDemand": 1,
+            "volumeDemand": 1,
+            "pickupReadyTime": "2024-02-19T08:20:00Z",
+            "pickupDueTime": "2024-02-19T08:50:00Z",
+            "dropOffReadyTime": null,
+            "dropOffDueTime": null
+        },
+        {
+            "demand": 52,
+            "trackingNo": "353292310",
+            "pickupLocation": {
+                "address": "AL QUOZ  CAMP",
+                "lat": 25.133202126043326,
+                "lng": 55.254699280403784
+            },
+            "dropOffLocation": {
+                "address": "DUBAI HILLS MALL-1",
+                "lat": 25.10173828905264,
+                "lng": 55.239924612059895
+            },
+            "pickupDuration": 10,
+            "deliveryDuration": 10,
+            "weightDemand": 1,
+            "volumeDemand": 1,
+            "pickupReadyTime": null,
+            "pickupDueTime": null,
+            "dropOffReadyTime": "2024-02-19T10:10:00Z",
+            "dropOffDueTime": "2024-02-19T10:40:00Z"
+        },
+        {
+            "demand": 34,
+            "trackingNo": "2031897971",
+            "pickupLocation": {
+                "address": "AL QUOZ  CAMP",
+                "lat": 25.133202126043326,
+                "lng": 55.254699280403784
+            },
+            "dropOffLocation": {
+                "address": "DUBAI HILLS MALL-1",
+                "lat": 25.10173828905264,
+                "lng": 55.239924612059895
+            },
+            "pickupDuration": 10,
+            "deliveryDuration": 10,
+            "weightDemand": 1,
+            "volumeDemand": 1,
+            "pickupReadyTime": null,
+            "pickupDueTime": null,
+            "dropOffReadyTime": "2024-02-19T10:10:00Z",
+            "dropOffDueTime": "2024-02-19T10:40:00Z"
+        },
+        {
+            "demand": 25,
+            "trackingNo": "634095985",
+            "pickupLocation": {
+                "address": "AL QUOZ  CAMP",
+                "lat": 25.133202126043326,
+                "lng": 55.254699280403784
+            },
+            "dropOffLocation": {
+                "address": "AG car taxi service",
+                "lat": 25.120489061901523,
+                "lng": 55.2191334134638
+            },
+            "pickupDuration": 10,
+            "deliveryDuration": 10,
+            "weightDemand": 1,
+            "volumeDemand": 1,
+            "pickupReadyTime": null,
+            "pickupDueTime": null,
+            "dropOffReadyTime": "2024-02-19T17:10:00Z",
+            "dropOffDueTime": "2024-02-19T17:40:00Z"
+        },
+        {
+            "demand": 52,
+            "trackingNo": "1849644178",
+            "pickupLocation": {
+                "address": "AG car taxi service",
+                "lat": 25.120489061901523,
+                "lng": 55.2191334134638
+            },
+            "dropOffLocation": {
+                "address": "AL QUOZ  CAMP",
+                "lat": 25.133202126043326,
+                "lng": 55.254699280403784
+            },
+            "pickupDuration": 10,
+            "deliveryDuration": 10,
+            "weightDemand": 1,
+            "volumeDemand": 1,
+            "pickupReadyTime": "2024-02-19T18:20:00Z",
+            "pickupDueTime": "2024-02-19T18:50:00Z",
+            "dropOffReadyTime": null,
+            "dropOffDueTime": null
+        },
+        {
+            "demand": 34,
+            "trackingNo": "1345615807",
+            "pickupLocation": {
+                "address": "AL QUOZ  CAMP",
+                "lat": 25.133202126043326,
+                "lng": 55.254699280403784
+            },
+            "dropOffLocation": {
+                "address": "DUBAI HILLS MALL-1",
+                "lat": 25.10173828905264,
+                "lng": 55.239924612059895
+            },
+            "pickupDuration": 10,
+            "deliveryDuration": 10,
+            "weightDemand": 1,
+            "volumeDemand": 1,
+            "pickupReadyTime": null,
+            "pickupDueTime": null,
+            "dropOffReadyTime": "2024-02-19T19:10:00Z",
+            "dropOffDueTime": "2024-02-19T19:40:00Z"
+        },
+        {
+            "demand": 1,
+            "trackingNo": "1795375998",
+            "pickupLocation": {
+                "address": "DUBAI HILLS NURSERY",
+                "lat": 25.122987169154307,
+                "lng": 55.260860640896155
+            },
+            "dropOffLocation": {
+                "address": "AL QUOZ  CAMP",
+                "lat": 25.133202126043326,
+                "lng": 55.254699280403784
+            },
+            "pickupDuration": 10,
+            "deliveryDuration": 10,
+            "weightDemand": 1,
+            "volumeDemand": 1,
+            "pickupReadyTime": "2024-02-19T20:10:00Z",
+            "pickupDueTime": "2024-02-19T20:40:00Z",
+            "dropOffReadyTime": null,
+            "dropOffDueTime": null
+        },
+        {
+            "demand": 52,
+            "trackingNo": "613163428",
+            "pickupLocation": {
+                "address": "DUBAI HILLS MALL-1",
+                "lat": 25.10173828905264,
+                "lng": 55.239924612059895
+            },
+            "dropOffLocation": {
+                "address": "AL QUOZ  CAMP",
+                "lat": 25.133202126043326,
+                "lng": 55.254699280403784
+            },
+            "pickupDuration": 10,
+            "deliveryDuration": 10,
+            "weightDemand": 1,
+            "volumeDemand": 1,
+            "pickupReadyTime": "2024-02-19T20:20:00Z",
+            "pickupDueTime": "2024-02-19T20:50:00Z",
+            "dropOffReadyTime": null,
+            "dropOffDueTime": null
+        },
+        {
+            "demand": 28,
+            "trackingNo": "166439615",
+            "pickupLocation": {
+                "address": "AL QUOZ  CAMP",
+                "lat": 25.133202126043326,
+                "lng": 55.254699280403784
+            },
+            "dropOffLocation": {
+                "address": "DUBAI HILLS MALL-1",
+                "lat": 25.10173828905264,
+                "lng": 55.239924612059895
+            },
+            "pickupDuration": 10,
+            "deliveryDuration": 10,
+            "weightDemand": 1,
+            "volumeDemand": 1,
+            "pickupReadyTime": null,
+            "pickupDueTime": null,
+            "dropOffReadyTime": "2024-02-19T22:10:00Z",
+            "dropOffDueTime": "2024-02-19T22:40:00Z"
+        },
+        {
+            "demand": 34,
+            "trackingNo": "717266739",
+            "pickupLocation": {
+                "address": "AL QUOZ  CAMP",
+                "lat": 25.133202126043326,
+                "lng": 55.254699280403784
+            },
+            "dropOffLocation": {
+                "address": "DUBAI HILLS MALL-1",
+                "lat": 25.10173828905264,
+                "lng": 55.239924612059895
+            },
+            "pickupDuration": 10,
+            "deliveryDuration": 10,
+            "weightDemand": 1,
+            "volumeDemand": 1,
+            "pickupReadyTime": null,
+            "pickupDueTime": null,
+            "dropOffReadyTime": "2024-02-19T22:10:00Z",
+            "dropOffDueTime": "2024-02-19T22:40:00Z"
+        },
+        {
+            "demand": 52,
+            "trackingNo": "2025002566",
+            "pickupLocation": {
+                "address": "DUBAI HILLS MALL-1",
+                "lat": 25.10173828905264,
+                "lng": 55.239924612059895
+            },
+            "dropOffLocation": {
+                "address": "AL QUOZ  CAMP",
+                "lat": 25.133202126043326,
+                "lng": 55.254699280403784
+            },
+            "pickupDuration": 10,
+            "deliveryDuration": 10,
+            "weightDemand": 1,
+            "volumeDemand": 1,
+            "pickupReadyTime": "2024-02-19T23:20:00Z",
+            "pickupDueTime": "2024-02-19T23:50:00Z",
+            "dropOffReadyTime": null,
+            "dropOffDueTime": null
+        },
+        {
+            "demand": 34,
+            "trackingNo": "942254638",
+            "pickupLocation": {
+                "address": "DUBAI HILLS MALL-1",
+                "lat": 25.10173828905264,
+                "lng": 55.239924612059895
+            },
+            "dropOffLocation": {
+                "address": "AL QUOZ  CAMP",
+                "lat": 25.133202126043326,
+                "lng": 55.254699280403784
+            },
+            "pickupDuration": 10,
+            "deliveryDuration": 10,
+            "weightDemand": 1,
+            "volumeDemand": 1,
+            "pickupReadyTime": "2024-02-19T23:20:00Z",
+            "pickupDueTime": "2024-02-19T23:50:00Z",
+            "dropOffReadyTime": null,
+            "dropOffDueTime": null
+        },
+        {
+            "demand": 28,
+            "trackingNo": "864761234",
+            "pickupLocation": {
+                "address": "DUBAI HILLS MALL-1",
+                "lat": 25.10173828905264,
+                "lng": 55.239924612059895
+            },
+            "dropOffLocation": {
+                "address": "AL QUOZ  CAMP",
+                "lat": 25.133202126043326,
+                "lng": 55.254699280403784
+            },
+            "pickupDuration": 10,
+            "deliveryDuration": 10,
+            "weightDemand": 1,
+            "volumeDemand": 1,
+            "pickupReadyTime": "2024-02-19T23:40:00Z",
+            "pickupDueTime": "2024-02-20T00:10:00Z",
+            "dropOffReadyTime": null,
+            "dropOffDueTime": null
+        },
+        {
+            "demand": 34,
+            "trackingNo": "1008713171",
+            "pickupLocation": {
+                "address": "DUBAI HILLS MALL-1",
+                "lat": 25.10173828905264,
+                "lng": 55.239924612059895
+            },
+            "dropOffLocation": {
+                "address": "AL QUOZ  CAMP",
+                "lat": 25.133202126043326,
+                "lng": 55.254699280403784
+            },
+            "pickupDuration": 10,
+            "deliveryDuration": 10,
+            "weightDemand": 1,
+            "volumeDemand": 1,
+            "pickupReadyTime": "2024-02-19T23:40:00Z",
+            "pickupDueTime": "2024-02-20T00:10:00Z",
+            "dropOffReadyTime": null,
+            "dropOffDueTime": null
+        }
+    ]
+}

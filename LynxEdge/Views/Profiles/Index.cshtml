@@ -1,0 +1,57 @@
+﻿@using SharedKernal.Models.Profile
+@model List<Profile>
+
+<button class="btn btn-info btn-lg ml-3"
+        data-toggle="modal"
+        data-target="#ProfileModal" 
+        onclick="addProfile()">Create Profile</button>
+
+<button class="btn btn-success btn-lg ml-3"
+		id="DownloadBtn"
+		onclick="">
+
+	Download CSV
+</button>
+
+<div class="card-body">
+	<table id="DataTable1" class="table table-hover table-bordered table-striped">
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>Profile Name</th>
+				<th>StartDepot</th>
+				<th>EndDepot</th>
+				<th>OnOffLoadTime </th>
+				<th>SlackTime</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var profile in Model ?? [])
+			{
+				<tr>
+					<td>@profile.Id</td>
+					<td>@profile.Name</td>
+					<td>@profile.StartDepot</td>
+					<td>@profile.EndDepot</td>
+					<td>@profile.SlackTime</td>
+					<td>@profile.OnOffLoadTime</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+</div>
+
+<script>
+
+	function addProfile() {
+		$.ajax({
+			type: "GET",
+			url: "/Profiles/Create",
+			success: function (result) {
+				$("body").append(result);
+				$("#ProfileModal").modal('show');
+			}
+		});
+	}
+
+</script>

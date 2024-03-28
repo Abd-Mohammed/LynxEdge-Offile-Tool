@@ -1,0 +1,178 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model SharedKernal.Models.Profile.Profile
+
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+<style>
+    /* Add your custom styles here */
+    .modal-content {
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    }
+
+    .modal-header {
+        border-bottom: none;
+    }
+
+    .modal-footer {
+        border-top: none;
+    }
+
+    .spinner {
+        border: 4px solid rgba(0, 0, 0, 0.1);
+        border-left-color: #1d68a7;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        animation: spin 1s linear infinite;
+        margin: 0 auto;
+        margin-top: 20px;
+        display: none;
+    }
+
+    @@keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    /* Style for disabled button */
+    button:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+</style>
+<div class="spinner" id="spinner"></div>
+
+<div class="modal fade" id="ProfileModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Adding New Profile</h5>
+                <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                @using (Html.BeginForm("CreateProfile", "Profiles", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                    <div class="col-sm-10 mb-4 mx-auto text-center">
+                        <input asp-for="Name"
+                               type="text"
+                               class="form-control"
+                               name="ProfileName"
+                               placeholder="Enter Profile Name"
+                               required />
+                        @Html.ValidationMessageFor(model => model.Name)
+                    </div>
+
+                    <div class="container-fluid border rounded-pill border-secondary p-4">
+                        <h3 class="fw-bold text-center">Shift</h3>
+                        <div class="d-flex flex-column align-items-center mt-3">
+                            <div class="row align-items-center">
+                                <div class="col">
+                                    <input asp-for="StartDepot"
+                                           name="StartDepot"
+                                           id="StartDepot" 
+                                           type="text" 
+                                           class="form-control rounded-pill" 
+                                           placeholder="Start Depot" required />
+                                    @Html.ValidationMessageFor(model => model.StartDepot)
+                                </div>
+                            </div>
+                            <div class="row align-items-center mt-3">
+                                <div class="col">
+                                    <input asp-for="EndDepot"
+                                           name="EndDepot"
+                                           id="EndDepot"
+                                           type="text"
+                                           class="form-control rounded-pill"
+                                           placeholder="End Depot" required />
+                                    @Html.ValidationMessageFor(model => model.EndDepot)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mt-3 md-3">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <strong>Vehicles</strong>
+                            <div class="ml-auto">
+                                <button type="button" class="btn btn-primary btn-sm" id="addVehicleRow">Add Vehicle</button>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <table id="vehiclesTable" class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Label</th>
+                                        <th>Capacity</th>
+                                        <th>Fuel</th>
+                                        <th>Count</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @for (var i = 0; i < Model.Vehicles.Count; i += 1)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <input type="text" required asp-for="Vehicles[i].Label" class="form-control" name="vehicleLabel" />
+                                                @Html.ValidationMessageFor(model => model.Vehicles[i].Label)
+                                            </td>
+                                            <td>
+                                                <input type="number" required asp-for="Vehicles[i].Capacity" class="form-control" name="vehicleCapacity" />
+                                                @Html.ValidationMessageFor(model => model.Vehicles[i].Capacity)
+                                            </td>
+                                            <td>
+                                                <input type="number" required asp-for="Vehicles[i].Fuel" class="form-control" name="vehicleFuel" />
+                                                @Html.ValidationMessageFor(model => model.Vehicles[i].Fuel)
+                                            </td>
+                                            <td>
+                                                <input type="number" required asp-for="Vehicles[i].Count" class="form-control" name="vehicleCount" />
+                                                @Html.ValidationMessageFor(model => model.Vehicles[i].Count)
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="container-fluid border border-secondary mt-3 p-3">
+                        <div class="row justify-content-center">
+                            <div class="col d-flex align-items-center">
+                                <label class="form-label" style="white-space: nowrap;">Onload/Offload Time <small>(SEC)</small></label>
+                                &nbsp;&nbsp;<input min="0" required asp-for="OnOffLoadTime" name="OnOffLoadTime" type="number" class="form-control" style="width: 100px;" />
+                                @Html.ValidationMessageFor(model => model.OnOffLoadTime)
+                            </div>
+                            <div class="col d-flex align-items-center">
+                                <label class="form-label" style="white-space: nowrap;">Waiting Time</label>
+                                &nbsp; &nbsp;<input min="0" asp-for="SlackTime" name="SlackTime" type="number" class="form-control" style="width: 100px;" />
+                                @Html.ValidationMessageFor(model => model.SlackTime)
+                            </div>
+                        </div>
+                        <input type="file" required accept=".csv" class="form-control-file mt-3" id="fileInput" name="fileInput">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" id="CreateButton" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Optimize</button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"></script>
+<script src="~/js/Profiles.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#ProfileModal').on('submit', function () {
+            $('#spinner').show(); // Show the spinner
+        });
+    });
+</script>
